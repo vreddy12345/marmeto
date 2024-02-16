@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #b8b2b2;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    border-radius: 5px;
+    border: 0px;
+}
+
+p {
+    margin-right: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    color: navy;
+    font-family: "Inter";
+}
+
+.shine-button {
+    background-color: blue;
+    color: white;
+}
+
+.button-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 10px;
+
+}
+
+.product-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    width: 260px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.badge {
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.badge-button {
+    background-color: #e8e6e6;
+    padding: 5px;
+}
+
+.title {
+    width: 180px;
+}
+
+.title-vendor {
+    display: flex;
+}
+
+.vendor {
+    margin-top: 25px;
+}
+
+.price-discount {
+    display: flex;
+}
+
+
+.com-price {
+    color: #7d7878;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: red;
+}
+
+.shine-button-1 {
+    width: 220px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:767px) {
+    .product-card {
+        height: 400px;
+        width: 260;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .product-card {
+        height: 420px;
+        width: 280;
+    }
+
+    .badge {
+        height: 230px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .product-card {
+        height: 430px;
+        width: 290;
+    }
+
+    .badge {
+        height: 240px;
+    }
+}
